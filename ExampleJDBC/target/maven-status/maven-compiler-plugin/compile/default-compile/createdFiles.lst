@@ -1,0 +1,12 @@
+co\edu\sena\examplejdbc\bd\DBKey.class
+co\edu\sena\examplejdbc\utils\MessageUtils.class
+co\edu\sena\examplejdbc\bd\BDConnection.class
+co\edu\sena\examplejdbc\test\TestConnection.class
+co\edu\sena\examplejdbc\model\EmployeeType.class
+co\edu\sena\examplejdbc\test\TestEmployeeType.class
+co\edu\sena\examplejdbc\bd\DBRecord.class
+co\edu\sena\examplejdbc\test\TestRecord.class
+co\edu\sena\examplejdbc\bd\DBEmployeeType.class
+co\edu\sena\examplejdbc\model\Key.class
+co\edu\sena\examplejdbc\model\Record.class
+co\edu\sena\examplejdbc\test\TestKey.class
