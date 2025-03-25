@@ -8,7 +8,7 @@ import co.edu.sena.examplejdbc.bd.DBConnection;
 
 /**
  * Fecha: 13/03/2025
- * @author Juan Diego Orrego Vargas
+ * @author Nicolle
  * Objetivo: probar la conexión a la base de datos.
  */
 

@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 /**
  * Fecha: 13/03/2025
- * @author Juan Diego Orrego Vargas
+ * @author Nicolle
  * Objetivo: Clase principal para conexión a base de datos
  */
 public class DBConnection {
