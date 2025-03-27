@@ -1,15 +1,25 @@
-C:\Users\victus\OneDrive - SENA\ADSO - ARCHIVOS\DOCUMENTOS ESPECIFICACION DE REQUISITOS\REPOS\ExampleJDBC\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\model\Employee.java
-C:\Users\victus\OneDrive - SENA\ADSO - ARCHIVOS\DOCUMENTOS ESPECIFICACION DE REQUISITOS\REPOS\ExampleJDBC\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\test\TestEmployee.java
-C:\Users\victus\OneDrive - SENA\ADSO - ARCHIVOS\DOCUMENTOS ESPECIFICACION DE REQUISITOS\REPOS\ExampleJDBC\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\bd\DBRecord.java
-C:\Users\victus\OneDrive - SENA\ADSO - ARCHIVOS\DOCUMENTOS ESPECIFICACION DE REQUISITOS\REPOS\ExampleJDBC\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\test\TestKey.java
-C:\Users\victus\OneDrive - SENA\ADSO - ARCHIVOS\DOCUMENTOS ESPECIFICACION DE REQUISITOS\REPOS\ExampleJDBC\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\model\Key.java
-C:\Users\victus\OneDrive - SENA\ADSO - ARCHIVOS\DOCUMENTOS ESPECIFICACION DE REQUISITOS\REPOS\ExampleJDBC\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\utils\MessageUtils.java
-C:\Users\victus\OneDrive - SENA\ADSO - ARCHIVOS\DOCUMENTOS ESPECIFICACION DE REQUISITOS\REPOS\ExampleJDBC\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\test\TestConnection.java
-C:\Users\victus\OneDrive - SENA\ADSO - ARCHIVOS\DOCUMENTOS ESPECIFICACION DE REQUISITOS\REPOS\ExampleJDBC\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\model\Record.java
-C:\Users\victus\OneDrive - SENA\ADSO - ARCHIVOS\DOCUMENTOS ESPECIFICACION DE REQUISITOS\REPOS\ExampleJDBC\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\bd\DBEmployee.java
-C:\Users\victus\OneDrive - SENA\ADSO - ARCHIVOS\DOCUMENTOS ESPECIFICACION DE REQUISITOS\REPOS\ExampleJDBC\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\bd\DBEmployeeType.java
-C:\Users\victus\OneDrive - SENA\ADSO - ARCHIVOS\DOCUMENTOS ESPECIFICACION DE REQUISITOS\REPOS\ExampleJDBC\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\model\EmployeeType.java
-C:\Users\victus\OneDrive - SENA\ADSO - ARCHIVOS\DOCUMENTOS ESPECIFICACION DE REQUISITOS\REPOS\ExampleJDBC\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\bd\DBConnection.java
-C:\Users\victus\OneDrive - SENA\ADSO - ARCHIVOS\DOCUMENTOS ESPECIFICACION DE REQUISITOS\REPOS\ExampleJDBC\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\test\TestRecord.java
-C:\Users\victus\OneDrive - SENA\ADSO - ARCHIVOS\DOCUMENTOS ESPECIFICACION DE REQUISITOS\REPOS\ExampleJDBC\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\bd\DBKey.java
-C:\Users\victus\OneDrive - SENA\ADSO - ARCHIVOS\DOCUMENTOS ESPECIFICACION DE REQUISITOS\REPOS\ExampleJDBC\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\test\TestEmployeeType.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\bd\DBConnection.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\test\TestEmployee.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\test\TestEmployeeType.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\bd\DBKey.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\views\JFrameEmployee.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\model\EmployeeType.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\controllers\IEmployeeTypeController.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\model\Key.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\test\TestKey.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\bd\DBRecord.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\controllers\EmployeeTypeController.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\controllers\KeyController.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\controllers\IEmployeeController.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\utils\MessageUtils.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\controllers\IRecordController.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\model\Record.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\test\TestRecord.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\controllers\EmployeeController.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\bd\DBEmployeeType.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\test\TestConnection.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\controllers\RecordController.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\controllers\IKeyController.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\views\JFrameEmployeeType.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\bd\DBEmployee.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\model\Employee.java
