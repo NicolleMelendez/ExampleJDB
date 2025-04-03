@@ -43,15 +43,7 @@ public class RecordController implements IRecordController{
             throw new Exception("El tipo de llave es obligatorio");
         }
         
-        //la FK no es autocremental, se debe validar el empleado
-        Employee employeeExists = dbe.findById(record.getEmployeeId().getDocument());
-        if(employeeExists != null){
-            throw new Exception("Ya existe un empleado con ese documento");
-        }
-        Key keyExists = dbk.findById(record.getKeyId().getId());
-        if(keyExists != null){
-            throw new Exception("Ya existe un empleado con ese documento");
-        }
+
         
         //insertar
         dbr.insert(record);
@@ -61,50 +53,47 @@ public class RecordController implements IRecordController{
 
     @Override
     public void update(Record record) throws Exception {
-        if(record == null){
-           throw new Exception("El registro es nulo") ;
+        if (record == null) {
+            throw new Exception("El registro es nulo");
         }
-        if("".equals(record.getDateRecord())){
+        
+        if (record.getId() == 0){
+            throw new Exception("El id es obligatorio");
+        }
+        
+        if ("".equals(record.getDateRecord())) {
             throw new Exception("La fecha es obligatoria");
         }
-        if("".equals(record.getStartTime())){
-            throw new Exception("El comienzo del tiempo es obligatorio");
-        }
-
         
-        //FK
-        if(record.getEmployeeId() == null){
-            throw new Exception("El tipo de empleado es obligatorio");
-        }
-        if(record.getKeyId() == null){
-            throw new Exception("El tipo de llave es obligatorio");
+        if ("".equals(record.getStartTime())) {
+            throw new Exception("El inicio es obligatio");
         }
         
-        
-        Employee employeeExists = dbe.findById(record.getEmployeeId().getDocument());
-        if(employeeExists != null){
-            throw new Exception("Ya existe un empleado con ese documento");
+        // FK
+        if (record.getEmployeeId() == null) {
+            throw new Exception("El ID del empleado es obligatorio.");
         }
-        Key keyExists = dbk.findById(record.getKeyId().getId());
-        if(keyExists != null){
-            throw new Exception("Ya existe un empleado con ese documento");
+        // FK
+        if (record.getKeyId()== null) {
+            throw new Exception("El ID de la llave es obligatorio.");
+        }
+        if ("".equals(record.getStatus())) {
+            throw new Exception("El estado es obligatorio.");
         }
         
         //actualizar
-        dbr.update(record);    }
+        dbr.update(record);    
+    }
 
     @Override
     public void delete(int id) throws Exception {
         if(id == 0){
-            throw new Exception("El documento es obligatorio");
+            throw new Exception("El id es obligatorio");
         }    
-        Employee employeeExists = dbe.findById(id);
-        if(employeeExists != null){
-            throw new Exception("Ya existe un empleado con ese documento");
-        }
+
         Key keyExists = dbk.findById(id);
-        if(keyExists != null){
-            throw new Exception("Ya existe un empleado con ese documento");
+        if(keyExists == null){
+            throw new Exception("No una llave con ese documento");
         }
         
         //eliminar

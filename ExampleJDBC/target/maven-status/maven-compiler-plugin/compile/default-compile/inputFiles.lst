@@ -8,6 +8,7 @@ D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\controller
 D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\model\Key.java
 D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\test\TestKey.java
 D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\bd\DBRecord.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\views\JFrameKey.java
 D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\controllers\EmployeeTypeController.java
 D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\controllers\KeyController.java
 D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\controllers\IEmployeeController.java
@@ -19,7 +20,10 @@ D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\controller
 D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\bd\DBEmployeeType.java
 D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\test\TestConnection.java
 D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\controllers\RecordController.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\views\JFrameHome.java
 D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\controllers\IKeyController.java
 D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\views\JFrameEmployeeType.java
 D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\bd\DBEmployee.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\utils\ConvertUtils.java
 D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\model\Employee.java
+D:\Repos\ExampleJDB\ExampleJDBC\src\main\java\co\edu\sena\examplejdbc\views\JFrameRecord.java

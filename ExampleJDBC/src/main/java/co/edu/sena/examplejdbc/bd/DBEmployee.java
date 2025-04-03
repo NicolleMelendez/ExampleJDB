@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
  * Fecha: 13/03/2025
- * @author Juan Diego Orrego Vargas
+ * @author Nicolle
  * Objetivo: Permite consultas y transacciones en la tabla employee
  */
 

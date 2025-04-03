@@ -2,7 +2,7 @@ package co.edu.sena.examplejdbc.model;
 
 /**
  * Fecha: 20/03/2025
- * @author Juan Diego Orrego Vargas
+ * @author Nicolle
  * Objetivo: Representa la tabla record.
  */
 

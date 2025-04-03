@@ -6,7 +6,7 @@ package co.edu.sena.examplejdbc.model;
 
 /**
  * Fecha: 13/03/2025
- * @author Juan Diego Orrego Vargas
+ * @author Nicolle
  * Objetivo: Representa la tabla key.
  */
 
@@ -66,6 +66,11 @@ public class Key {
 
     public void setCount(int count) {
         this.count = count;
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
     
     

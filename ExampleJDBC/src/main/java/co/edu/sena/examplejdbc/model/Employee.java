@@ -6,7 +6,7 @@ package co.edu.sena.examplejdbc.model;
 
 /**
  * Fecha: 13/03/2025
- * @author Juan Diego Orrego Vargas
+ * @author Nicolle
  * Objetivo: Representa la tabla employee.
  */
 
@@ -66,6 +66,11 @@ public class Employee {
 
     public void setPhone(String phone) {
         this.phone = phone;
+    }
+
+    @Override
+    public String toString() {
+        return fullname;
     }
 
     

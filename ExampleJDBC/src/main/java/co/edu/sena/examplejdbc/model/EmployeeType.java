@@ -6,7 +6,7 @@ package co.edu.sena.examplejdbc.model;
 
 /**
  * Fecha: 13/03/2025
- * @author Juan Diego Orrego Vargas
+ * @author Nicolle
  * Objetivo: Representa la tabla employee_type.
  */
 public class EmployeeType {

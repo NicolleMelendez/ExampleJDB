@@ -18,7 +18,7 @@ public class KeyController implements IKeyController{
 
     @Override
     public void insert(Key key) throws Exception {
-        if(key == null){
+       if(key == null){
           throw new Exception("El tipo de llave es mala");
       }  
       if("".equals(key.getName())){

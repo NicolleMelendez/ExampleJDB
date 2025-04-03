@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * Fecha: 20/03/2025
- * @author Juan Diego Orrego Vargas
+ * @author Nicolle
  * Objetivo: Permite consultas y transacciones en la tabla record
  */
 
