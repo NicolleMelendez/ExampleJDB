@@ -78,13 +78,14 @@ public class JFrameKey extends javax.swing.JFrame {
         jTextFieldName = new javax.swing.JTextField();
         jTextFieldRoom = new javax.swing.JTextField();
         jTextFieldCount = new javax.swing.JTextField();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Key");
 
         jPanelKey.setBackground(new java.awt.Color(65, 105, 225));
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Llaves");
 
@@ -170,64 +171,76 @@ public class JFrameKey extends javax.swing.JFrame {
 
         jTextFieldRoom.setText(" ");
 
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\Repos\\ExampleJDB\\ExampleJDBC\\src\\main\\resources\\co\\edu\\sena\\examplejdbc\\view\\home.png")); // NOI18N
+        jLabel2.setText("Volver");
+        jLabel2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel2MouseClicked(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanelKeyLayout = new javax.swing.GroupLayout(jPanelKey);
         jPanelKey.setLayout(jPanelKeyLayout);
         jPanelKeyLayout.setHorizontalGroup(
             jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanelKeyLayout.createSequentialGroup()
-                .addGroup(jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanelKeyLayout.createSequentialGroup()
-                        .addGap(276, 276, 276)
-                        .addComponent(jLabel1))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanelKeyLayout.createSequentialGroup()
+            .addGroup(jPanelKeyLayout.createSequentialGroup()
+                .addGroup(jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanelKeyLayout.createSequentialGroup()
                         .addGap(54, 54, 54)
-                        .addGroup(jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(jPanelKeyLayout.createSequentialGroup()
-                                .addGap(9, 9, 9)
-                                .addComponent(jButtonInsert)
-                                .addGap(49, 49, 49)
-                                .addComponent(jButtonUpdate))
-                            .addGroup(jPanelKeyLayout.createSequentialGroup()
-                                .addGroup(jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addGroup(jPanelKeyLayout.createSequentialGroup()
-                                        .addComponent(jLabelId)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(jTextFieldId))
-                                    .addGroup(jPanelKeyLayout.createSequentialGroup()
-                                        .addComponent(jLabelRoom)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jTextFieldRoom, javax.swing.GroupLayout.DEFAULT_SIZE, 146, Short.MAX_VALUE)))
-                                .addGap(79, 79, 79)
-                                .addGroup(jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addGroup(jPanelKeyLayout.createSequentialGroup()
-                                        .addComponent(jLabelName)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jTextFieldName, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanelKeyLayout.createSequentialGroup()
-                                        .addComponent(jLabelCount)
-                                        .addGap(18, 18, 18)
-                                        .addComponent(jTextFieldCount))))
-                            .addComponent(jLabelObservation)
-                            .addGroup(jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel2)
+                            .addGroup(jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addGroup(jPanelKeyLayout.createSequentialGroup()
-                                    .addComponent(jButtonDelete)
-                                    .addGap(56, 56, 56)
-                                    .addComponent(jButtonClear))
-                                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 458, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 469, Short.MAX_VALUE))))
-                .addGap(19, 47, Short.MAX_VALUE))
+                                    .addGap(9, 9, 9)
+                                    .addComponent(jButtonInsert)
+                                    .addGap(49, 49, 49)
+                                    .addComponent(jButtonUpdate))
+                                .addGroup(jPanelKeyLayout.createSequentialGroup()
+                                    .addGroup(jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabelRoom)
+                                        .addComponent(jLabelId))
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addGroup(jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jTextFieldRoom, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(jTextFieldId, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGap(77, 77, 77)
+                                    .addGroup(jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addGroup(jPanelKeyLayout.createSequentialGroup()
+                                            .addComponent(jLabelName)
+                                            .addGap(18, 18, 18)
+                                            .addComponent(jTextFieldName, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGroup(jPanelKeyLayout.createSequentialGroup()
+                                            .addComponent(jLabelCount)
+                                            .addGap(18, 18, 18)
+                                            .addComponent(jTextFieldCount))))
+                                .addComponent(jLabelObservation)
+                                .addGroup(jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addGroup(jPanelKeyLayout.createSequentialGroup()
+                                        .addComponent(jButtonDelete)
+                                        .addGap(56, 56, 56)
+                                        .addComponent(jButtonClear))
+                                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 458, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jScrollPane1))))
+                    .addGroup(jPanelKeyLayout.createSequentialGroup()
+                        .addGap(247, 247, 247)
+                        .addComponent(jLabel1)))
+                .addGap(19, 35, Short.MAX_VALUE))
         );
         jPanelKeyLayout.setVerticalGroup(
             jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelKeyLayout.createSequentialGroup()
-                .addGap(32, 32, 32)
+                .addGap(35, 35, 35)
+                .addComponent(jLabel2)
+                .addGap(4, 4, 4)
                 .addComponent(jLabel1)
-                .addGap(26, 26, 26)
+                .addGap(37, 37, 37)
                 .addGroup(jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabelId)
                     .addComponent(jLabelName)
-                    .addComponent(jTextFieldId, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextFieldName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextFieldName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldId, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(30, 30, 30)
                 .addGroup(jPanelKeyLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabelRoom)
@@ -246,7 +259,7 @@ public class JFrameKey extends javax.swing.JFrame {
                     .addComponent(jButtonUpdate))
                 .addGap(64, 64, 64)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 195, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(63, Short.MAX_VALUE))
+                .addContainerGap(16, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -341,6 +354,12 @@ public class JFrameKey extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jTableKeyMouseClicked
 
+    private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
+        JFrameHome view = new JFrameHome();
+        view.setVisible(true);
+        setVisible(false);
+    }//GEN-LAST:event_jLabel2MouseClicked
+
     
     
     public void clear()
@@ -397,6 +416,7 @@ public class JFrameKey extends javax.swing.JFrame {
     private javax.swing.JButton jButtonInsert;
     private javax.swing.JButton jButtonUpdate;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabelCount;
     private javax.swing.JLabel jLabelId;
     private javax.swing.JLabel jLabelName;
