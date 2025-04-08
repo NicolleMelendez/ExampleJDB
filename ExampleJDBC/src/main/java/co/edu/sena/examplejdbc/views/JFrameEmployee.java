@@ -115,6 +115,7 @@ public class JFrameEmployee extends javax.swing.JFrame {
         jButtonUpdate = new javax.swing.JButton();
         jButtonDelete = new javax.swing.JButton();
         jButtonClear = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Employee");
@@ -200,6 +201,16 @@ public class JFrameEmployee extends javax.swing.JFrame {
             }
         });
 
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\Repos\\ExampleJDB\\ExampleJDBC\\src\\main\\resources\\co\\edu\\sena\\examplejdbc\\view\\home.png")); // NOI18N
+        jLabel2.setText("Volver");
+        jLabel2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel2MouseClicked(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanelEmployeeeLayout = new javax.swing.GroupLayout(jPanelEmployeee);
         jPanelEmployeee.setLayout(jPanelEmployeeeLayout);
         jPanelEmployeeeLayout.setHorizontalGroup(
@@ -244,14 +255,21 @@ public class JFrameEmployee extends javax.swing.JFrame {
                 .addComponent(jButtonClear)
                 .addGap(88, 88, 88))
             .addGroup(jPanelEmployeeeLayout.createSequentialGroup()
-                .addGap(322, 322, 322)
-                .addComponent(jLabel1)
+                .addGroup(jPanelEmployeeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanelEmployeeeLayout.createSequentialGroup()
+                        .addGap(322, 322, 322)
+                        .addComponent(jLabel1))
+                    .addGroup(jPanelEmployeeeLayout.createSequentialGroup()
+                        .addGap(61, 61, 61)
+                        .addComponent(jLabel2)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanelEmployeeeLayout.setVerticalGroup(
             jPanelEmployeeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanelEmployeeeLayout.createSequentialGroup()
-                .addGap(50, 50, 50)
+                .addGap(28, 28, 28)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel1)
                 .addGap(34, 34, 34)
                 .addGroup(jPanelEmployeeeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -383,6 +401,12 @@ public class JFrameEmployee extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jButtonDeleteActionPerformed
 
+    private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
+        JFrameHome view = new JFrameHome();
+        view.setVisible(true);
+        setVisible(false);
+    }//GEN-LAST:event_jLabel2MouseClicked
+
 
     
     /**
@@ -427,6 +451,7 @@ public class JFrameEmployee extends javax.swing.JFrame {
     private javax.swing.JButton jButtonUpdate;
     private javax.swing.JComboBox<String> jComboBoxType;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabelAddres;
     private javax.swing.JLabel jLabelDocument;
     private javax.swing.JLabel jLabelFullname;
